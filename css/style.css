@@ -1,0 +1,90 @@
+.body--pink {
+	background-color: #ff00ff;
+}
+
+p.body--pink {
+	background-color: rgba(255,0,255,0.5);
+	border-radius: 40px;
+	padding: 20px;
+}
+
+
+
+.opcion {
+	color: #666666;
+}
+
+#seleccionado {
+	color: #ffffff;
+}
+
+body {
+		background-color: #0000ff;
+	}
+
+h1 {
+	color: yellow;
+}
+
+h2 {
+	color: #0000ff;
+}
+
+h2 * span {
+	color: pink;
+}
+
+
+h1 + h2 {
+	color: white;
+}
+
+a {
+	background-color: white;
+}
+
+a[href="https://www.ufps.edu.co"] {
+	background-color: red;
+}
+
+
+a[href="https://www.ufps.edu.co"]:hover {
+	background-color: green;
+	font-size: 2em;
+}
+
+input:invalid {
+	background-color: red;
+}
+
+input:valid {
+	background-color: green;
+}
+
+input:invalid + span {
+	display:inline;
+}
+
+input:valid + span {
+	display: none;
+}
+
+h2:before {
+	content: "Tema ";
+}
+
+.header {
+
+}
+
+.header__title {
+
+}
+
+.header__subtitle {
+
+}
+
+.header__subtitle--selected {
+	
+}

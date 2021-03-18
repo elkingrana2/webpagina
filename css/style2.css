@@ -1,0 +1,85 @@
+body {
+	background-color: blue;
+	font-family: arial;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #336699;
+}
+
+header h2 {
+	color: #663214;
+	font-family: initial;
+}
+
+section>h2 {
+	color: rgb(240,200,120);
+}
+
+section h2 span {
+	color: red;
+}
+
+section {
+
+}
+
+.importante {
+	background-color: rgba(255,0,255,0.3);
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 10px;
+}
+
+.importante p {
+	font-style: italic;
+}
+
+#especial {
+	font-weight: bolder;
+}
+
+p#especial {
+	color: #CCC;
+}
+
+
+section h1 + h2 {
+	color: red;
+}
+
+a[href="#"] {
+	color: green;
+}
+
+
+nav>ul {
+	list-style: none;
+	padding: 0px;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	height: 20px;
+	background-color: #ccc;
+	border-left: solid #336699 2px;
+}
+
+nav ul li:hover {
+	border-left: solid #336699 10px;
+	background-color: #444;
+	color: red;
+}
+.clear {
+	clear: both;
+}
+
+section article h2:before {
+	content: "Tema ";
+}
